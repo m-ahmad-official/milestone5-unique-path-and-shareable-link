@@ -1,0 +1,167 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Generator Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Resume Generator Builder</h1>
+      <p>by Muhammad Ahmad</p>
+    </header>
+
+    <div class="container">
+      <form id="resumeForm">
+        <h2>Personal Information</h2>
+        <div>
+          <label id="label" for="userName">Resume URL:</label>
+          <input
+            class="input"
+            type=""
+            id="userName"
+            placeholder="Enter your url"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="name">Full Name:</label>
+          <input
+            class="input"
+            type="text"
+            id="name"
+            placeholder="Enter your full name"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="dob">Date of Birth:</label>
+          <input class="input" type="date" id="dob" required />
+        </div>
+
+        <div>
+          <label id="label" for="email">Email:</label>
+          <input
+            class="input"
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="phone">Phone Number:</label>
+          <input
+            class="input"
+            type="number"
+            id="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+        </div>
+        <br />
+
+        <h2>Education</h2>
+        <div>
+          <label id="label" for="degree">Degree:</label>
+          <input
+            class="input"
+            type="text"
+            id="degree"
+            placeholder="Enter degree"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="institution">Institution:</label>
+          <input
+            class="input"
+            type="text"
+            id="institution"
+            placeholder="Enter institution"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="year">Year:</label>
+          <input
+            class="input"
+            type="number"
+            id="year"
+            placeholder="Enter year"
+            required
+          />
+        </div>
+        <br />
+
+        <h2>Work Experience</h2>
+        <div>
+          <label id="label" for="company">Company:</label>
+          <input
+            class="input"
+            type="text"
+            id="company"
+            placeholder="Enter company"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="position">Position:</label>
+          <input
+            class="input"
+            type="text"
+            id="position"
+            placeholder="Enter position"
+            required
+          />
+        </div>
+
+        <div>
+          <label id="label" for="duration">Duration:</label>
+          <input
+            class="input"
+            type="text"
+            id="duration"
+            placeholder="Enter duration"
+            required
+          />
+        </div>
+        <br />
+
+        <h2>Skills</h2>
+        <div>
+          <label id="label" for="skills">Skills:</label>
+          <input
+            class="input"
+            type="text"
+            id="skills"
+            placeholder="Enter a skill"
+            required
+          />
+        </div>
+
+        <div id="button">
+          <button id="button1" type="submit">Generate Resume</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="resume-container" id="resumeContainer"></div>
+
+    <div class="foot">
+      <button id="download" class="click">Download Resume</button>
+      <button id="share" class="click">Share Resume</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

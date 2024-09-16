@@ -1,0 +1,170 @@
+/* style.css */
+body,
+.resume-container {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 8px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+}
+
+h1 {
+  color: #6a5acd;
+  margin: 0;
+  font-size: 40px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container,
+.resume-container {
+  width: 850px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: white;
+  background-color: #6a5acd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+
+div {
+  padding: 10px;
+}
+
+label {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+.input {
+  width: 800px;
+  margin-top: 5px;
+  padding: 12px;
+  font-size: 16px;
+  border: solid black 1.75px;
+  border-radius: 5px;
+}
+
+#toggleButton {
+  margin: 50px 0px 25px 0px;
+}
+
+button {
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-top: 25px;
+}
+
+#button1 {
+  height: 60px;
+  width: 320px;
+  font-size: 20px;
+  border: solid black 1.75px;
+}
+
+#button {
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(66, 56, 129);
+  transform: scale(1.1);
+}
+
+h2.editable {
+  padding: 15px;
+  margin: 0%;
+  margin-bottom: 15px;
+}
+
+p.editable {
+  font-size: 19px;
+}
+
+div.resume-container {
+  padding: 40px;
+}
+
+.editable {
+  border: 1px dashed #6a5acd;
+  padding: 5px;
+}
+
+.editable:focus {
+  outline: 2px solid #6a5acd;
+}
+
+.click {
+  height: 50px;
+  width: 200px;
+  margin: 0%;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.foot :hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    margin-top: 10px;
+  }
+
+  .container,
+  .resume-container {
+    width: auto;
+    padding: 10px;
+  }
+
+  div.resume-container {
+    padding: 20px;
+  }
+
+  .input {
+    display: block;
+    width: auto;
+  }
+
+  #button1 {
+    height: 50px;
+    width: 250px;
+    margin: 20px 0 20px 0;
+  }
+
+  .click {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+  }
+}
