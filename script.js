@@ -17,7 +17,7 @@ resumeContainer === null || resumeContainer === void 0 ? void 0 : resumeContaine
 });
 // Function to generate a unique URL based on the name
 function generateUniqueURL(name) {
-    var baseURL = "https://username.vercel.app/resume";
+    var baseURL = "https://milestone5-unique-path-and-shareable-link-six.vercel.app/";
     return "".concat(baseURL);
 }
 // Function to generate the resume dynamically based on form inputs

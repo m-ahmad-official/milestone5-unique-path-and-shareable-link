@@ -20,7 +20,7 @@ resumeContainer?.addEventListener("click", function (event) {
 
 // Function to generate a unique URL based on the name
 function generateUniqueURL(name: string): string {
-  const baseURL = "https://username.vercel.app/resume";
+  const baseURL = "https://milestone5-unique-path-and-shareable-link-six.vercel.app/";
   return `${baseURL}`;
 }
 
